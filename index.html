@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FactCheck.Health | Separate health facts from myths</title>
+  <meta name="description" content="Plain-language answers to common health claims, checked against trusted sources.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <div class="page">
+
+    <header class="logo-cell">
+      <a class="brand" href="index.html" aria-label="FactCheck.Health home">
+        <img src="logo-apple.png" alt="" width="66" height="72">
+        <span class="brand-name">FACTCHECK.HEALTH</span>
+      </a>
+    </header>
+
+    <nav class="nav-cell" aria-label="Main navigation">
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="myths.html">Myths</a></li>
+        <li><a href="submit.html">Submit</a></li>
+      </ul>
+
+      <form class="search" role="search" action="myths.html" method="get">
+        <label class="sr-only" for="site-search">Search myths</label>
+        <input id="site-search" type="search" name="q" placeholder="Search...">
+        <button type="submit" aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg>
+        </button>
+      </form>
+
+      <a class="about-link" href="about.html">About</a>
+
+      <a class="icon-link" href="saved.html" aria-label="Saved myths">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21S3.500 15.600 3.500 9.800C3.500 6.900 5.700 5 8.100 5c1.600 0 3 .8 3.900 2.200C12.900 5.800 14.300 5 15.900 5c2.400 0 4.600 1.900 4.600 4.800C20.500 15.600 12 21 12 21z"/></svg>
+      </a>
+      <a class="icon-link" href="account.html" aria-label="Your account">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="9.500" r="3.500"/><path d="M5.500 19c1.600-3 4-4.200 6.500-4.200s4.900 1.200 6.500 4.200"/></svg>
+      </a>
+    </nav>
+
+    <main id="main" class="main-grid">
+
+      <section class="headline-cell" aria-labelledby="hero-title">
+        <h1 id="hero-title">
+          <span class="line dark">seperate</span>
+          <span class="line green">health</span>
+          <span class="line green">facts</span>
+          <span class="line dark">from</span>
+          <span class="line red">myths.</span>
+        </h1>
+        <img class="cluster" src="hero-cluster.png" alt="An apple, a red button and a four-leaf clover">
+      </section>
+
+      <div class="hero-cell">
+        <img src="hero.jpg" alt="A ladybug climbing a curling green stem with a four-leaf clover over rolling green hills">
+      </div>
+
+      <div class="clover-cell">
+        <img src="clover-bottom.png" alt="A bunch of four-leaf clovers">
+      </div>
+
+      <section class="week-cell" aria-labelledby="week-title">
+        <h2 id="week-title">Myth vs fact of the week</h2>
+        <ul class="topics">
+          <li><a href="myths.html?topic=chronic">Chronic Diseases</a></li>
+          <li><a href="myths.html?topic=crises">Public crises</a></li>
+          <li><a href="myths.html?topic=nutrition">Nutrition</a></li>
+        </ul>
+        <a class="week-quote" href="myth-detail.html">
+          <q>Does sugar directly causes diabetes?</q>
+        </a>
+      </section>
+
+    </main>
+  </div>
+</body>
+</html>
